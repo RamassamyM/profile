@@ -1,0 +1,245 @@
+/* Here goes your CSS *//* Here goes your CSS */
+/* general layout*/
+/*==================================*/
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #384047;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+body {
+  background-color: #EDEFF0;
+  text-align: center;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+  padding-top: 50px;
+  color: #edeff0;
+}
+#page-content {
+  margin-left: 120px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.card {
+  background: white;
+  padding: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+}
+
+strong {
+  font-weight: 400;
+}
+
+/* responsive layout*/
+/*==================================*/
+@media(max-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(min-width: 320px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media(min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(min-width: 1000px) {
+  .container {
+    width: 900px;
+  }
+}
+
+/* general text layout*/
+/*==================================*/
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #dd5555;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+h2, h3, h4 {
+  font-weight: 400;
+}
+
+h2 {
+  color: #788188;
+  font-size: 18px;
+}
+
+h3 {
+  color: #788188;
+  font-size: 17px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #788188;
+  font-weight: 400;
+}
+
+a:hover{
+  color: #6cc2fa;
+}
+
+table td {
+  padding: 20px;
+  vertical-align: top;
+}
+
+/* Components css */
+/*==================================*/
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.more-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Images css */
+/*==================================*/
+
+.img-circle {
+  border-radius: 60%;
+}
+
+.img-square {
+  width: 50px;
+  height: 50px;
+}
+
+.shadowed {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Text css */
+/*==================================*/
+
+.text-margin-bottom {
+  margin-bottom: 40px;
+}
+
+/* Button css */
+/*==================================*/
+
+.btn {
+  border-radius: 3px;
+  color: #7d7d7d;
+  padding: 10px 20px;
+  width: 50px;
+  text-decoration: none;
+}
+
+.btn-red {
+  background-color: #dd5555;
+  color: #ffffff;
+}
+
+.btn-red:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* Icons css */
+/*==================================*/
+
+.inline-icons li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.ft-grey {
+  color: #788188;
+}
+
+
+/* Profile page Blocks*/
+/*==================================*/
+
+/* Header*/
+/*==================================*/
+
+#header img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Experiences */
+/*==================================*/
+#edsmile-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#edsmile-img:hover {
+  opacity: 0.5;
+}
+
+/* Formations */
+/*==================================*/
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Sidebar */
+/*==================================*/
+
+.hover-lighter:hover {
+  color: #edeff0;
+}
+
+
+
+
+
+
+
+
